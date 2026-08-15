@@ -1,0 +1,25 @@
+{
+  "name": "typescript-bootcamp",
+  "version": "1.0.0",
+  "description": "My TypeScript works during lecture",
+  "homepage": "https://github.com/prabhatyadav4/typescript-bootcamp#readme",
+  "bugs": {
+    "url": "https://github.com/prabhatyadav4/typescript-bootcamp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhatyadav4/typescript-bootcamp.git"
+  },
+  "license": "ISC",
+  "author": "KernalPrab",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/01_index.js",
+    "dev": "npx tsc"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
