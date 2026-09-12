@@ -1,6 +1,6 @@
 <div align="center">
 
-# TypeScript Bootcamp — Chai aur Code
+# TypeScript Bootcamp - Chai aur Code
 
 ### My TypeScript learning journey from zero to production
 ### following Hitesh Choudhary's *Chai aur TypeScript* series
@@ -8,13 +8,14 @@
 <br/>
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-[![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)](https://github.com/prabhatyadav4)
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)](https://github.com/prabhatyadav4)
 [![Course](https://img.shields.io/badge/Course-Chai%20aur%20Code-orange?style=flat-square)](https://youtube.com/playlist?list=PLu71SKxNbfoBkkr8lblqtsJvxrw3j1tWC)
 [![Instructor](https://img.shields.io/badge/Instructor-Hitesh%20Choudhary-red?style=flat-square)](https://github.com/hiteshchoudhary)
+[![Duration](https://img.shields.io/badge/Duration-26%20days-blue?style=flat-square)](https://github.com/prabhatyadav4/typescript-bootcamp)
 
 </div>
 
@@ -22,9 +23,9 @@
 
 ## 🎯 About
 
-This repository contains all my notes, practice code, and projects built while following the **Chai aur TypeScript** series by **Hitesh Choudhary**. Coming from JavaScript and React, this series focuses on adding strong typing and production-ready patterns to my development workflow.
+This repository contains all my notes, practice code, and projects built while completing the **Chai aur TypeScript** series by **Hitesh Choudhary**. Coming from JavaScript and React, this series helped me add strong typing, OOP patterns, and production-ready TypeScript to my skill set.
 
-> **Started:** August 2026 &nbsp;|&nbsp; **Status:** 🚧 Learning in Progress
+> **Started:** August 16, 2026 &nbsp;|&nbsp; **Completed:** September 11, 2026 &nbsp;|&nbsp; **Duration:** 26 days
 > **Prerequisites:** JavaScript · React basics
 
 ---
@@ -34,72 +35,141 @@ This repository contains all my notes, practice code, and projects built while f
 ```
 typescript-bootcamp/
 │
-├── 01_basics/               # Setup, types, type inference
-├── 02_functions/            # Typed functions, optional params
-├── 03_objects_interfaces/   # Interfaces, type aliases
-├── 04_classes/              # OOP with TypeScript
-├── 05_generics/             # Generic types and functions
-├── 06_narrowing/            # Type narrowing and guards
-├── 07_advanced_types/       # Union, intersection, utility types
-├── 08_modules/              # Modules and namespaces
-├── 09_projects/             # Real-world TypeScript projects
+├── src/                          # Core TypeScript concepts
+│   ├── 01_index.ts               # TS setup & hello world
+│   ├── 02_typesInTS.ts           # Primitive types & annotations
+│   ├── 03_unionsAndAny.ts        # Union types & any
+│   ├── 04_typeNarrowing.ts       # Type narrowing & guards
+│   ├── 05_advanceTypes.ts        # Advanced type patterns
+│   ├── 06_interfaces.ts          # Interfaces basics
+│   ├── 07_object.ts              # Typed objects
+│   ├── 08_function.ts            # Typed functions
+│   ├── 09_arrayTypesAndEnum.ts   # Arrays, tuples & enums
+│   ├── 10_oop.ts                 # OOP with TypeScript
+│   ├── 11_interface.ts           # Advanced interfaces
+│   ├── 12_generics.ts            # Generic types & functions
+│   ├── 13_webReq.ts              # Web requests with types
+│   └── 14_fetchReq.ts            # Typed fetch requests
+│
+├── react-ts/                     # TypeScript + React project
+│   └── src/
+│       ├── components/
+│       │   ├── Card.tsx          # Typed card component
+│       │   ├── ChaiCard.tsx      # Custom chai card
+│       │   ├── ChaiList.tsx      # List with typed props
+│       │   ├── Counter.tsx       # Typed state counter
+│       │   └── OrderFrom.tsx     # Typed form component
+│       ├── hooks/
+│       │   └── useFetch.ts       # Custom typed hook
+│       ├── App.tsx
+│       ├── main.tsx
+│       └── types.ts              # Shared type definitions
+│
 └── README.md
 ```
 
-*Note: Structure will be updated as I progress through the course.*
-
 ---
 
-## 📚 Topics to Cover
+## 📚 Topics Completed
 
 ### Fundamentals
-- [ ] TypeScript Setup & Configuration (`tsconfig.json`)
-- [ ] Primitive Types — `string`, `number`, `boolean`
-- [ ] Type Inference & Annotations
-- [ ] Arrays & Tuples
-- [ ] `any`, `unknown`, `never`, `void`
-- [ ] Enums
+- [x] TypeScript Setup & `tsconfig.json` configuration
+- [x] Primitive Types — `string`, `number`, `boolean`
+- [x] Type Inference & Annotations
+- [x] Arrays, Tuples & Enums
+- [x] `any`, `unknown`, `never`, `void`
 
 ### Core Concepts
-- [ ] Functions — typed params, return types, optional & default params
-- [ ] Objects & Type Aliases
-- [ ] Interfaces & `extends`
-- [ ] Union & Intersection Types
-- [ ] Type Assertions & Type Guards
-- [ ] Literal Types
+- [x] Union Types & `any`
+- [x] Type Narrowing & Type Guards
+- [x] Objects & Type Aliases
+- [x] Interfaces & `extends`
+- [x] Advanced Types — Intersection, Utility Types
+- [x] Typed Functions — params, return types, optional & default
 
 ### Advanced
-- [ ] Classes & Access Modifiers (`public`, `private`, `protected`)
-- [ ] Generics — functions, interfaces, classes
-- [ ] Utility Types — `Partial`, `Required`, `Readonly`, `Pick`, `Omit`
-- [ ] Narrowing & `typeof` / `instanceof`
-- [ ] Decorators
-- [ ] TypeScript with React (TSX)
-- [ ] TypeScript with Node.js & Express
+- [x] OOP — Classes, Access Modifiers (`public`, `private`, `protected`)
+- [x] Generics — functions, interfaces, classes
+- [x] Web Requests with TypeScript
+- [x] Typed Fetch Requests
+- [x] TypeScript with React (TSX)
+- [x] Custom Typed Hooks
 
 ---
 
-## 🛠️ Setup & Running Code
+## 🚀 React + TypeScript Project
 
+> Located in `react-ts/` — a Vite + React + TypeScript app
+
+### Components Built
+
+| Component | Concepts Used |
+|-----------|--------------|
+| `Card.tsx` | Typed props interface |
+| `ChaiCard.tsx` | Optional props, default values |
+| `ChaiList.tsx` | Array types, mapped components |
+| `Counter.tsx` | `useState<T>` typed hook |
+| `OrderFrom.tsx` | Typed form events, `React.FormEvent` |
+| `useFetch.ts` | Generic custom hook, typed API response |
+| `types.ts` | Shared type definitions across components |
+
+---
+
+## 🛠️ Running the Code
+
+### Core TypeScript files
 ```bash
 # Clone the repo
 git clone https://github.com/prabhatyadav4/typescript-bootcamp.git
 cd typescript-bootcamp
 
-# Install TypeScript globally (if not already)
-npm install -g typescript
+# Install dependencies
+npm install
 
-# Check version
-tsc --version
+# Compile a file
+npx tsc src/01_index.ts
 
-# Compile a TypeScript file
-tsc filename.ts
+# Or run directly with ts-node
+npx ts-node src/01_index.ts
+```
 
-# Run compiled JavaScript
-node filename.js
+### React + TypeScript project
+```bash
+cd react-ts
+npm install
+npm run dev
+```
 
-# Or use ts-node to run directly
-npx ts-node filename.ts
+---
+
+## ⚡ Key Learnings
+
+```ts
+// 1. Type Annotations
+const name: string = "Prabhat"
+const age: number = 20
+
+// 2. Interfaces
+interface User {
+    name: string
+    email: string
+    age?: number   // optional
+}
+
+// 3. Union Types
+type ID = string | number
+
+// 4. Generics
+function getFirst<T>(arr: T[]): T {
+    return arr[0]
+}
+
+// 5. Typed React Props
+interface CardProps {
+    title: string
+    description: string
+    onClick: () => void
+}
 ```
 
 ---
@@ -127,11 +197,11 @@ npx ts-node filename.ts
 
 ## 🔗 My Other Bootcamps
 
-| Repo | Description |
-|------|-------------|
-| [js-bootcamp](https://github.com/prabhatyadav4/js-bootcamp) | JavaScript - completed ✅ |
-| [react-bootcamp](https://github.com/prabhatyadav4/react-bootcamp) | React - completed ✅ |
-| [typescript-bootcamp](https://github.com/prabhatyadav4/typescript-bootcamp) | TypeScript — in progress 🚧 |
+| Repo | Description | Status |
+|------|-------------|--------|
+| [js-bootcamp](https://github.com/prabhatyadav4/js-bootcamp) | JavaScript fundamentals | ✅ Completed |
+| [react-bootcamp](https://github.com/prabhatyadav4/react-bootcamp) | React — Hooks, Redux, Appwrite | ✅ Completed |
+| [typescript-bootcamp](https://github.com/prabhatyadav4/typescript-bootcamp) | TypeScript — Core + React TS | ✅ Completed |
 
 ---
 
@@ -152,6 +222,6 @@ npx ts-node filename.ts
 
 ⭐ **Star this repo if you find it helpful!**
 
-*Built with 🔷 TypeScript and lots of ☕ chai*
+*Completed in 26 days with 🔷 TypeScript and lots of ☕ chai*
 
 </div>
